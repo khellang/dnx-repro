@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "ConsoleApp1 Console Application",
+  "authors": [ "Kristian" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "ClassLibrary1": "1.0.0"
+  },
+
+  "commands": {
+    "ConsoleApp1": "ConsoleApp1"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Newtonsoft.Json": "7.0.1",
+        "EntityFramework": "6.1.3"
+      },
+      "frameworkAssemblies": {
+        "System.Net.Http": "4.0.0.0"
+      }
+    }
+  }
+}
